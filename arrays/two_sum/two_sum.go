@@ -1,8 +1,6 @@
 // Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
-package main
-
-import "fmt"
+package two_sum
 
 // O(n) time complexity
 // O(n) space complexity
@@ -25,8 +23,4 @@ func twoSum(nums []int, target int) []int {
 		m[nums[i]] = i
 	}
 	return nil
-}
-
-func main() {
-	fmt.Println(twoSum([]int{1,2,3,4,5}, 9))
 }
