@@ -2,15 +2,17 @@
 package quarter_of_the_year
 
 func QuarterOf(month int) (result int) {
+	quarters := []int{1, 2, 3, 4}
+
 	switch month {
 	case 1, 2, 3:
-		result = 1
+		result = quarters[0]
 	case 4, 5, 6:
-		result = 2
+		result = quarters[1]
 	case 7, 8, 9:
-		result = 3
+		result = quarters[2]
 	case 10, 11, 12:
-		result = 4
+		result = quarters[3]
 	}
 	return
 }
