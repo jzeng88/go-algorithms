@@ -1,2 +1,3 @@
 playground.go
 .vscode
+*.DS_Store
