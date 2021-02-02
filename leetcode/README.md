@@ -6,4 +6,6 @@
 5. [x] Implement strstr()
 6. [x] Reverse Words in a String
 7. [] Reverse Words in a String II (See #6)
-8. [] String to Integer (atoi)
+8. [x] String to Integer (atoi)
+9. [] Valid Number
+10. [x] Longest Substring Without Repeating Characters (Sliding Window)
