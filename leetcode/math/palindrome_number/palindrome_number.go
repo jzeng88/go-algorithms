@@ -3,6 +3,15 @@ package palindrome_number
 
 import "strconv"
 
+// input = 121
+// output = true
+
+// Input: x = -121
+// Output: false
+
+// Input: x = 10
+// Output: false
+
 func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
