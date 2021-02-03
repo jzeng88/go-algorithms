@@ -18,7 +18,7 @@
 
 ### Chapter 2: Math
 17. [x] REVERSE INTEGER
-18. [] PLUS ONE
+18. [x] PLUS ONE
 19. [] PALINDROME NUMBER
 
 ### Chapter 3: LINKED LIST
